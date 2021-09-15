@@ -1,7 +1,10 @@
-package main.java;
+import java.util.logging.Logger;
 
 public class Runner {
+
+    private static final Logger logger = Logger.getLogger(Runner.class.getName());
+
     public static void main(String[] args) {
-        System.out.println("Hello world commit to develop");
+        logger.info("Begin Cup Draw..");
     }
 }
